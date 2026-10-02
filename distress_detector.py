@@ -29,8 +29,8 @@ OCCLUSION_LUM_THRESH = 15     # Mean brightness cutoff (0-255)
 OCCLUSION_TIME_LIMIT = 35.0   # Seconds before flagging camera tamper
 
 # --- TELEGRAM API CONFIGURATION ---
-TELEGRAM_BOT_TOKEN = "8891508112:AAHOrPPJAJtJmCEfhbUmKgxwpQrqRUwSDLQ"
-TELEGRAM_CHAT_ID = "1188195026"
+TELEGRAM_BOT_TOKEN =  os.getenv("TELEGRAM_BOT_TOKEN")
+TELEGRAM_CHAT_ID = ""
 
 # --- MACOS ARDUINO SERIAL BRIDGE ---
 SERIAL_PORT = '/dev/cu.usbserial-10'  # Your Mac USB serial path
