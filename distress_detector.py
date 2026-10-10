@@ -30,7 +30,7 @@ OCCLUSION_TIME_LIMIT = 35.0   # Seconds before flagging camera tamper
 
 # --- TELEGRAM API CONFIGURATION ---
 TELEGRAM_BOT_TOKEN =  os.getenv("TELEGRAM_BOT_TOKEN")
-TELEGRAM_CHAT_ID = ""
+TELEGRAM_CHAT_ID = "to be filled"
 
 # --- MACOS ARDUINO SERIAL BRIDGE ---
 SERIAL_PORT = '/dev/cu.usbserial-10'  # Your Mac USB serial path
